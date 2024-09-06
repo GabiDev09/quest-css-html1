@@ -1,0 +1,64 @@
+body {
+    background-color: blueviolet;
+    background-image: url(.//images/bg-desktop.svg);
+    padding: 40px;
+    color: white;
+    font-size: 22px;
+    font-family: montserrat;
+}
+
+
+.container {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+
+}
+
+.meu-botao {
+    font-size: 25px;
+    background-color: white;
+    color: rgb(165, 105, 184);
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-family: montserrat;
+}
+
+.texto {
+    flex: 45%;
+}
+
+.imagem {
+    flex: 55%;
+}
+
+.icones {
+   display: flex;
+   padding-right: 30px;
+   justify-content: flex-end;
+}
+
+.icone1:hover {
+    background-color: rgb(250, 128, 222);
+    border-radius: 40px;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.icone2:hover {
+    background-color: rgb(250, 128, 222);
+    border-radius: 40px;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.icone3:hover {
+ background-color: rgb(250, 128, 222);
+ border-radius: 40px;
+ transition: color 0.3s, border-color 0.3s;
+}
+
+.meu-botao:hover {
+background-color: rgb(255, 158, 249);
+transition: color 0.3s, border-color 0.3s;
+}
+
+/* /////////// */
