@@ -10,8 +10,9 @@ body {
 
 .container {
     display: flex;
-    padding: 2%;
+    padding: 20px;
     align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -36,23 +37,24 @@ body {
    display: flex;
    padding-right: 30px;
    justify-content: flex-end;
+   gap: 20px;
 }
 
 .icone1:hover {
     background-color: rgb(250, 128, 222);
-    border-radius: 40px;
+    border-radius: 20px;
     transition: color 0.3s, border-color 0.3s;
 }
 
 .icone2:hover {
     background-color: rgb(250, 128, 222);
-    border-radius: 40px;
+    border-radius: 20px;
     transition: color 0.3s, border-color 0.3s;
 }
 
 .icone3:hover {
  background-color: rgb(250, 128, 222);
- border-radius: 40px;
+ border-radius: 20px;
  transition: color 0.3s, border-color 0.3s;
 }
 
